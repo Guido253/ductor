@@ -1,0 +1,46 @@
+@import "../generales/variables";
+@import "../generales/generales";
+
+#Mapa {
+    background-image: url(../images/fondo.jpg);
+    text-align: center;
+    padding: 10%;
+    font-size: 40px;
+
+    .titulo-mapa {
+        text-align: $align;
+        font-size: 45px;
+        padding-bottom: 1.5%;
+    }
+
+    .elmapa {
+        
+        @media  screen and (max-width: 650px) {
+            width: 70px;
+            height: 80px;
+
+        }
+    }
+}
+
+/* Propiedades del Audio */
+#tarjetas {
+    background-color: $bg-color;
+    text-align: $align;
+    padding: 2.5%;
+    font-size: 30px;
+    margin: 1%;
+
+    .titulo-audio {
+        margin: 1.5%;
+        font-size: 3rem;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 30px;
+        height: 40px;
+    }
+}
+
+
+/* Propiedades del Audio */

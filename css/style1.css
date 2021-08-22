@@ -1,0 +1,449 @@
+*Quitamos los elementos predeterminados*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Fin  del CSS Predeterminado*/
+
+/* Propiedades generales*/
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    margin: .2em;
+}
+
+/*Propiedades del Body*/
+body {
+    background-color: black;
+}
+/*Fin de las propiedades del Body*/
+
+
+
+
+
+/*Propiedades del header*/
+.flexbox {
+    background-color: rgba(94, 94, 94, 0.13);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid salmon;
+}
+
+.nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: grey;
+    padding: 6px;
+}
+
+/*Fin de las propiedades del header*/
+
+
+
+/*Sombra y color de Texto en h1, h3 y footer */
+h1,h3,footer,#audios, #videos, .titulo-mapa {
+    text-shadow: 2px 2px 5px black;
+    color: blanchedalmond;
+}
+/*Sombra y color de Texto en h1, h3 y footer */
+
+
+
+
+/* CSS de la bajada principal */
+.bajada {
+    background-image: url(../images/plata.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 190px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+/* Fin del CSS de la bajada principal */
+
+
+
+/* Propiedades del h1 */
+h1 {
+    font-size: 60px;
+}
+/*Fin de la propiedad de H1*/
+
+
+
+/* Propiedades del boton de Ver Más */
+.boton {
+     background-color: black;
+     color: blanchedalmond;
+     font-family: Chivo;
+     padding: 16px 48px;
+     border-radius: 100px;
+     display: inline-block;
+     transition: all 1s;
+     font-size: 20px;
+     font-weight: bold;
+     margin: 1%;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+}
+/* Propiedades del boton de Ver Más */
+
+
+
+/*Propiedades del botón Volver*/
+.boton-2 {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Chivo;
+    padding: 16px 48px;
+    border-radius: 100px;
+    display: inline-block;
+    transition: .8s;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1%;
+    text-align: center;
+}
+/*Fin de Propiedades del botón Volver*/
+
+
+
+/*Section del boton*/
+.boton2 {
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 1%;
+    transition: all 1.5s;
+    padding: 20px;
+}
+
+.boton2 a:hover {
+    transform: rotate(10deg) scale(1) translate(5px);
+}
+/*Propiedades del botón */
+
+
+
+
+/*Propiedades del Mapa */
+#Mapa {
+    background-image: url(../images/8.jpg);
+    text-align: center;
+    padding: 10%;
+    font-size: 40px;
+}
+/*Propiedades del Mapa */
+
+
+
+
+
+/* Propiedades del Audio */
+#audios {
+    background-color: rgb(95, 94, 94);
+    text-align: center;
+    padding: 2.5%;
+    font-size: 30px;
+    margin: 1%;
+}
+
+.titulo-audio {
+    margin: 1%;
+}
+/* Propiedades del Audio */
+
+
+
+
+
+/*Segmento Proyectos*/
+#proyectos {
+    color: blanchedalmond;
+    background-color: rgb(104, 103, 103);
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 30%;
+}
+
+.titulo-proyecto {
+    background-color: rgb(104, 103, 103);
+    font-size: 70px;
+    text-shadow: 4px 4px 5px black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.proyectos-2 {
+    background-color:rgb(104, 103, 103) ;
+}
+/*Fin del Segmento Proyectos*/
+
+
+/*Título de casas*/
+.casas {
+    background-color: blanchedalmond;
+    color: black;
+    text-shadow: 4px 4px 4px grey;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+}
+/*Fin de Título*/
+
+
+
+/*Css Videos*/
+#videos {
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding-bottom: 5%;
+}
+
+.video-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;    
+}
+/*Fin de CSS Videos*/
+
+
+
+/*Seccion de Fotos*/
+.titulo-seccion {
+    background-color: rgb(104, 103, 103);
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-shadow: 4px 4px 4px black;
+}
+
+.titulo:hover {
+    animation: change 4s;
+}
+
+@keyframes change {
+    5% {
+        color: black;
+        text-shadow: 5px 5px 5px blanchedalmond;
+    }
+
+    40% {
+        color: crimson;
+        text-shadow: 4px 4px 4px black;
+    }
+}
+
+.grid-section {
+    background-color: rgb(104, 103, 103);
+    margin: 0;
+}
+
+.grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(30px auto);
+    grid-column-gap: 10%;
+    grid-template-rows: repeat(3px auto);
+    grid-row-gap: 10px;
+    grid-template-areas:
+    "c1-f1 c2-f1 c3-f1 c4-f1 c5-f1 c6-f1"
+    "c1-f2 c2-f2 c3-f2 c4-f2 c5-f2 c6-f2";
+    width: 88vw;
+    margin: 30px;
+}
+
+.grid-fotos img {
+    width: 200%;
+    text-align: center;
+    transition: all 1.5s;
+}
+
+
+.casilla-1-1 {
+    grid-area: c1-f1;
+}
+
+.casilla-1-1:hover {
+    transform: scale(3);
+}
+
+.casilla-1-2 {
+    grid-area: c2-f1;
+}
+.casilla-1-2:hover {
+    transform: scale(3);
+}
+
+.casilla-1-3 {
+    grid-area: c3-f1;
+}
+.casilla-1-3:hover {
+    transform: scale(3);
+}
+
+.casilla-1-4 {
+    grid-area: c4-f1;
+}
+.casilla-1-4:hover {
+    transform: scale(3);
+}
+
+.casilla-1-5 {
+    grid-area: c5-f1;
+}
+.casilla-1-5:hover {
+    transform: scale(3);
+}
+
+.casilla-1-6 {
+    grid-area: c6-f1;
+}
+.casilla-1-6:hover {
+    transform: scale(3);
+}
+
+.casilla-2-1 {
+    grid-area: c1-f2;
+}
+.casilla-2-1:hover {
+    transform: scale(3);
+}
+
+.casilla-2-2 {
+    grid-area: c6-f2;
+}
+.casilla-2-2:hover {
+    transform: scale(3);
+}
+
+.casilla-2-3 {
+    grid-area: c3-f2;
+}
+.casilla-2-3:hover {
+    transform: scale(3);
+}
+
+.casilla-2-4 {
+    grid-area: c4-f2;
+}
+.casilla-2-4:hover {
+    transform: scale(3);
+}
+
+.casilla-2-5 {
+    grid-area: c5-f2;
+}
+.casilla-2-5:hover {
+    transform: scale(3);
+}
+
+.casilla-2-6 {
+    grid-area: c2-f2;
+}
+.casilla-2-6:hover {
+    transform: scale(3);
+}
+
+
+/*Fin de Seccion de Fotos*/
+
+
+
+
+
+/*Logo de WhatsApp*/
+.wasap {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    transition: all 1.5s;
+}
+
+.wasap:hover {
+    transform: scale(1.1);
+}
+/*Fin del Logo de WhatsApp*/
+
+
+
+/*Propiedades del footer */
+footer {
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
+    text-align: right;
+    font-size: 25px;
+}
+/*Propiedades del footer */
+
+ /*Media Query*/
+
+ @media only screen and (max-width: 400px) {
+      .menu {
+         font-size: 3px;
+     }
+
+     h1 {
+         font-size: 39px;
+     }
+
+     h3 {
+         font-size: 15px;
+     }
+
+     .titulo-proyecto {
+         font-size: 32px;
+     }
+
+     #mapa h3 {
+         font-size: 32px;
+     }
+
+     #mapa {
+         background-color: blanchedalmond;
+     }
+
+     #mapa iframe {
+        margin: 2em;
+        height: 20px;
+        width: 30px;
+     }
+
+     #audios h2 {
+         font-size: 22px;
+         background-color: grey;
+         padding: 40px;
+     }
+ }

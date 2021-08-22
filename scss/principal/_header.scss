@@ -1,0 +1,23 @@
+@import "../generales/variables";
+
+header {
+
+    .navbar {
+       background-color: rgb(87, 87, 87); 
+       color: blanchedalmond;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding: 2px;
+        
+    .nav-link {
+        padding: 5px;
+    }
+       a {
+        
+       &:hover {
+        background-color: grey;
+        padding: 6px;
+       }
+    }
+
+    }
+}

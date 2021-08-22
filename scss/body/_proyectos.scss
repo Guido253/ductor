@@ -1,0 +1,25 @@
+@import "../generales/variables";
+
+#proyectos {
+    color: blanchedalmond;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+
+    .titulo-proyecto {
+        font-size: 70px;
+        text-shadow: 4px 4px 5px black;
+        color: blanchedalmond;
+        text-align: $align;
+        padding-top: 10px;
+    }
+}
+
+.proyectos-2 {
+        background-color: $bg-color;
+
+        .parrafo {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+        }
+    }

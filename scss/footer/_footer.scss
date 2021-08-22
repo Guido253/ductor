@@ -1,0 +1,24 @@
+/*Logo de WhatsApp*/
+.wasap {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    transition: all 1.5s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+/*Fin del Logo de WhatsApp*/
+
+
+/*Propiedades del footer */
+footer {
+    background-color: rgb(78, 78, 78);
+    padding: 15px;
+    text-align: right;
+    font-size: 25px;
+}
+/*Propiedades del footer */
