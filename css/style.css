@@ -181,10 +181,11 @@ h1, h3, footer, #audios, #videos, .cards {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 450px) {
   #videos .video-grid {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    font-size: 5px;
   }
 }
 
