@@ -2,10 +2,11 @@
 @import "../generales/generales";
 
 #Mapa {
-    background-image: url(../images/fondo.jpg);
+    background-image: url(../images/fondo.png);
     text-align: center;
     padding: 10%;
     font-size: 40px;
+    height: 100%;
 
     .titulo-mapa {
         text-align: $align;

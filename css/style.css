@@ -23,7 +23,7 @@ h1, h3, footer, #audios, #videos, .cards {
 
 /*Sombra y color de Texto en h1, h3 y footer */
 .bajada {
-  background-image: url(../images/plata.jpg);
+  background-image: url(../images/plata.png);
   background-size: cover;
   background-position: center;
   padding: 190px 0px;
@@ -132,10 +132,11 @@ h1, h3, footer, #audios, #videos, .cards {
 
 /*Sombra y color de Texto en h1, h3 y footer */
 #Mapa {
-  background-image: url(../images/fondo.jpg);
+  background-image: url(../images/fondo.png);
   text-align: center;
   padding: 10%;
   font-size: 40px;
+  height: 100%;
 }
 #Mapa .titulo-mapa {
   text-align: center;
