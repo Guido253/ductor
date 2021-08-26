@@ -20,5 +20,9 @@ footer {
     padding: 15px;
     text-align: right;
     font-size: 25px;
+
+    @media screen and (max-width:650px) {
+        font-size: 3px;
+    }
 }
 /*Propiedades del footer */
