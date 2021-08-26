@@ -12,6 +12,11 @@
         color: blanchedalmond;
         text-align: $align;
         padding-top: 10px;
+
+        @media screen and (max-width: 650px) {
+            font-size: 35px;
+            padding: 10px;
+        }
     }
 }
 
@@ -21,5 +26,19 @@
         .parrafo {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 30px;
+
+            @media screen and (max-width: 650px) {
+                font-size: 15px;
+                
+            }
         }
     }
+
+
+.fotos-carrusel {
+    @media screen and (max-width: 650px) {
+        height: 120px;
+        width: 150px;
+    }
+}
+ 

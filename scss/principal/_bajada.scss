@@ -6,6 +6,10 @@
     background-position: $align;
     padding: 190px 0px;
 
+    @media screen and (max-width: 650px) {
+        font-size: 30px;
+    }
+
     .boton {
         background-color: black;
         color: blanchedalmond;
@@ -28,6 +32,11 @@
         &:hover {
             transform: scale(1.1);
             }
+
+        @media screen and (max-width: 650px) {
+            text-align: center;
+            position: relative;
+        }
     }
 
     h1 {

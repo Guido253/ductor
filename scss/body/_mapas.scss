@@ -12,13 +12,18 @@
         text-align: $align;
         font-size: 45px;
         padding-bottom: 1.5%;
+
+        @media screen and (max-width: 650px) {
+            font-size: 17px;
+            
+        }
     }
 
-    .elmapa {
+    .el-mapa {
         
         @media  screen and (max-width: 650px) {
-            width: 70px;
-            height: 80px;
+            width: 250px;
+            height: 150px;
 
         }
     }

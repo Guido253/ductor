@@ -28,6 +28,11 @@ h1, h3, footer, #audios, #videos, .cards {
   background-position: center;
   padding: 190px 0px;
 }
+@media screen and (max-width: 650px) {
+  .bajada {
+    font-size: 30px;
+  }
+}
 .bajada .boton {
   background-color: black;
   color: blanchedalmond;
@@ -48,6 +53,12 @@ h1, h3, footer, #audios, #videos, .cards {
 }
 .bajada .boton:hover {
   transform: scale(1.1);
+}
+@media screen and (max-width: 650px) {
+  .bajada .boton {
+    text-align: center;
+    position: relative;
+  }
 }
 .bajada h1 {
   font-size: 60px;
@@ -98,6 +109,12 @@ header .navbar a:hover {
   text-align: center;
   padding-top: 10px;
 }
+@media screen and (max-width: 650px) {
+  #proyectos .titulo-proyecto {
+    font-size: 35px;
+    padding: 10px;
+  }
+}
 
 .proyectos-2 {
   background-color: #adadad;
@@ -105,6 +122,18 @@ header .navbar a:hover {
 .proyectos-2 .parrafo {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
+}
+@media screen and (max-width: 650px) {
+  .proyectos-2 .parrafo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .fotos-carrusel {
+    height: 120px;
+    width: 150px;
+  }
 }
 
 * {
@@ -144,9 +173,14 @@ h1, h3, footer, #audios, #videos, .cards {
   padding-bottom: 1.5%;
 }
 @media screen and (max-width: 650px) {
-  #Mapa .elmapa {
-    width: 70px;
-    height: 80px;
+  #Mapa .titulo-mapa {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #Mapa .el-mapa {
+    width: 250px;
+    height: 150px;
   }
 }
 
@@ -185,7 +219,6 @@ h1, h3, footer, #audios, #videos, .cards {
   #videos .video-grid {
     width: 20px;
     height: 20px;
-    font-size: 5px;
   }
 }
 
