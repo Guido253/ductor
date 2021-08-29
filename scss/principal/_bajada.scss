@@ -5,9 +5,18 @@
     background-size: cover;
     background-position: $align;
     padding: 190px 0px;
+    text-align: center;
 
     @media screen and (max-width: 650px) {
         font-size: 30px;
+    }
+
+    .botones {
+        text-align: $align;
+        text-shadow: 2px 2px 2px black;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
     }
 
     .boton {

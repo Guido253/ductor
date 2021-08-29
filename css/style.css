@@ -27,11 +27,19 @@ h1, h3, footer, #audios, #videos, .cards {
   background-size: cover;
   background-position: center;
   padding: 190px 0px;
+  text-align: center;
 }
 @media screen and (max-width: 650px) {
   .bajada {
     font-size: 30px;
   }
+}
+.bajada .botones {
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 .bajada .boton {
   background-color: black;
@@ -129,6 +137,14 @@ header .navbar a:hover {
   }
 }
 
+.tarjetas .card-title {
+  font-size: 30px;
+  text-shadow: 4px 4px 4px black;
+}
+.tarjetas .card-text {
+  font-size: 12px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -170,7 +186,7 @@ h1, h3, footer, #audios, #videos, .cards {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   #Mapa .el-mapa {
     width: 250px;
     height: 150px;
