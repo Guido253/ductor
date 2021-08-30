@@ -29,47 +29,26 @@ h1, h3, footer, #audios, #videos, .cards {
   padding: 190px 0px;
   text-align: center;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .bajada {
-    font-size: 30px;
+    font-size: 17px;
   }
 }
 .bajada .botones {
   text-align: center;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px greenyellow;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-}
-.bajada .boton {
-  background-color: black;
-  color: blanchedalmond;
-  text-align: center;
-  font-family: Chivo;
-  padding: 16px 48px;
-  border-radius: 100px;
-  display: inline-block;
-  position: relative;
-  left: 650px;
-  transition: all 1s;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 1%;
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*UpperSand*/
-}
-.bajada .boton:hover {
-  transform: scale(1.1);
-}
-@media screen and (max-width: 650px) {
-  .bajada .boton {
-    text-align: center;
-    position: relative;
-  }
+  font-weight: 800;
 }
 .bajada h1 {
   font-size: 60px;
+}
+@media screen and (max-width: 850px) {
+  .bajada h1 {
+    font-size: 35px;
+  }
 }
 .bajada h1, .bajada h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -234,6 +213,11 @@ h1, h3, footer, #audios, #videos, .cards {
   text-align: center;
   padding: 2% 2% 2% 2%;
   font-weight: 600;
+}
+@media screen and (max-width: 850px) {
+  .casas {
+    font-size: 30px;
+  }
 }
 
 .titulo-seccion {

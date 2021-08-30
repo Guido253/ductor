@@ -7,49 +7,27 @@
     padding: 190px 0px;
     text-align: center;
 
-    @media screen and (max-width: 650px) {
-        font-size: 30px;
+    @media screen and (max-width: 850px) {
+        font-size: 17px;
     }
 
     .botones {
         text-align: $align;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px greenyellow;
         text-decoration: none;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: black;
+        font-weight: 800;
     }
+   
 
-    .boton {
-        background-color: black;
-        color: blanchedalmond;
-        text-align: $align;
-        font-family: Chivo;
-        padding: 16px 48px;
-        border-radius: 100px;
-        display: inline-block;
-        position: relative;
-        left: 650px;
-        transition: all 1s;
-        font-size: 20px;
-        font-weight: 500;
-        margin: 1%;
-        text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
-    
-        /*UpperSand*/
-        &:hover {
-            transform: scale(1.1);
-            }
-
-        @media screen and (max-width: 650px) {
-            text-align: center;
-            position: relative;
-        }
-    }
 
     h1 {
         font-size: 60px;
+
+        @media screen and (max-width: 850px) {
+            font-size: 35px;
+        }
     }
 
     h1, h3 {
@@ -59,7 +37,6 @@
 
     
 }
-
 
 
 .boton2 {

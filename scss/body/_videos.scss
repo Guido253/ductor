@@ -6,11 +6,12 @@
     background-color: blanchedalmond;
     padding-bottom: 5%;
 
+
     .video-grid {
         width: 800px;
         display: flex;
-        justify-content: $align;  
-        
+        justify-content: $align; 
+
     } 
 }
 
@@ -23,4 +24,8 @@
     text-align: $align;
     padding: 2% 2% 2% 2%;
     font-weight: 600;
+
+    @media screen and (max-width: 850px) {
+        font-size: 30px;
+    }
 }
