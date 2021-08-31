@@ -102,14 +102,6 @@ header .navbar a:hover {
   }
 }
 
-.tarjetas .card-title {
-  font-size: 30px;
-  text-shadow: 4px 4px 4px black;
-}
-.tarjetas .card-text {
-  font-size: 12px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -151,33 +143,13 @@ h1, h3, footer, #audios, #videos, .cards {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   #Mapa .el-mapa {
     width: 250px;
     height: 150px;
   }
 }
 
-/* Propiedades del Audio */
-#tarjetas {
-  background-color: #adadad;
-  text-align: center;
-  padding: 2.5%;
-  font-size: 30px;
-  margin: 1%;
-}
-#tarjetas .titulo-audio {
-  margin: 1.5%;
-  font-size: 3rem;
-}
-@media screen and (max-width: 450px) {
-  #tarjetas {
-    width: 30px;
-    height: 40px;
-  }
-}
-
-/* Propiedades del Audio */
 #videos {
   display: flex;
   justify-content: center;
@@ -200,9 +172,9 @@ h1, h3, footer, #audios, #videos, .cards {
   padding: 2% 2% 2% 2%;
   font-weight: 600;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
   .casas {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -363,6 +335,16 @@ h1, h3, footer, #audios, #videos, .cards {
 }
 
 /*Fin del Logo de WhatsApp*/
+/*Boton del footer*/
+.boton2 {
+  background-color: blanchedalmond;
+  text-align: center;
+  text-shadow: 4px 4px 4px chartreuse;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 /*Propiedades del footer */
 footer {
   background-color: #4e4e4e;
