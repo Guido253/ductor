@@ -1,0 +1,51 @@
+/*Propiedades del 404*/
+
+.body-2 {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #6a89cc,#b8e994);
+}
+
+
+.container-404 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:rgb(32, 32, 32);
+
+    h1 {
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background-image: url(../images/fondo.png);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+
+    a {
+        text-decoration: none;
+        background: red;
+        color: white;
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 25px;
+        margin-top: 20px;
+        text-transform: uppercase;
+
+
+    &:hover {
+        background: rgb(238, 68, 68);
+    }
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+/*Fin de las Propiedades del 404*/
