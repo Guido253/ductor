@@ -150,24 +150,6 @@ h1, h3, footer, #audios, #videos, .cards {
   }
 }
 
-#videos {
-  display: flex;
-  justify-content: center;
-  background-color: blanchedalmond;
-  padding-bottom: 5%;
-}
-@media screen and (max-width: 550px) {
-  #videos {
-    width: 150px;
-    height: 250px;
-  }
-}
-#videos .video-grid {
-  width: 800px;
-  display: flex;
-  justify-content: center;
-}
-
 .casas {
   background-color: blanchedalmond;
   color: black;
@@ -216,7 +198,8 @@ h1, h3, footer, #audios, #videos, .cards {
 }
 @media screen and (max-width: 650px) {
   .grid-section {
-    background-size: cover;
+    background-size: contain;
+    position: fixed;
   }
 }
 

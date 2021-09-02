@@ -1,24 +1,6 @@
 @import "../generales/variables";
 
-#videos {
-    display: flex;
-    justify-content: center;
-    background-color: blanchedalmond;
-    padding-bottom: 5%;
 
-    @media screen and (max-width: 550px) {
-        width: 150px;
-        height: 250px;
-    }
-
-    .video-grid {
-        width: 800px;
-        display: flex;
-        justify-content: $align; 
-
-    } 
-
-}
 
 .casas {
     background-color: blanchedalmond;
