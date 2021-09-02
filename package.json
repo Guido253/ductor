@@ -1,11 +1,11 @@
 {
-  "name": "practico-11",
+  "name": "Ductor-Desarrollos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de nuestras mejores construcciones en la Ciudad de La Plata. Obras en Construcción, Futuros Edificios y los 20.000 metros cuadrados construidos en el casco urbano de la ciudad",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Guido Néstor Mazzarelli",
   "license": "ISC"
 }

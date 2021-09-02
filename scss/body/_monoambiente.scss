@@ -30,7 +30,13 @@
 .grid-section {
     background-color: rgb(104, 103, 103);
     margin: 0;
+    background-size: cover;
+
+    @media screen and (max-width: 650px){
+        background-size: cover;
+    }
 }
+
 .grid-fotos {
     display: grid;
     grid-template-columns: repeat(30px auto);

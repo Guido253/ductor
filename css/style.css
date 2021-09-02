@@ -156,6 +156,12 @@ h1, h3, footer, #audios, #videos, .cards {
   background-color: blanchedalmond;
   padding-bottom: 5%;
 }
+@media screen and (max-width: 550px) {
+  #videos {
+    width: 150px;
+    height: 250px;
+  }
+}
 #videos .video-grid {
   width: 800px;
   display: flex;
@@ -206,6 +212,12 @@ h1, h3, footer, #audios, #videos, .cards {
 .grid-section {
   background-color: #686767;
   margin: 0;
+  background-size: cover;
+}
+@media screen and (max-width: 650px) {
+  .grid-section {
+    background-size: cover;
+  }
 }
 
 .grid-fotos {
