@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **JavaScript & React**
 
-- 👯 I’m looking to collaborate on [Ganges Textil](gangestextil.com)
+- 👯 I’m looking to collaborate on [Front end proyects)
 
 - 📝 I regularly write articles on [Objetivoboca.wordpress.com](Objetivoboca.wordpress.com)
 
