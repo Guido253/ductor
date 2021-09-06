@@ -1,0 +1,15 @@
+@import "../generales/generales";
+@import "../generales/variables";
+
+.form-title {
+    text-align: $align;
+    font-size: 5vh;
+    padding: 2%;
+    margin-bottom: 0;
+    background-color: rgb(114, 114, 114);
+
+    @media screen and (max-width: 650px) {
+        font-size: 2vh;
+        
+    }
+}

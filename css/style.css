@@ -382,5 +382,41 @@ footer {
 }
 
 /*Fin de las Propiedades del 404*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0e0c0c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  margin: 0.2em;
+}
+
+/*Sombra y color de Texto en h1, h3 y footer */
+h1, h3, footer, #audios, #videos, .cards {
+  text-shadow: 4px 4px 5px black;
+  color: blanchedalmond;
+}
+
+/*Sombra y color de Texto en h1, h3 y footer */
+.form-title {
+  text-align: center;
+  font-size: 5vh;
+  padding: 2%;
+  margin-bottom: 0;
+  background-color: #727272;
+}
+@media screen and (max-width: 650px) {
+  .form-title {
+    font-size: 2vh;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
